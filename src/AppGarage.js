@@ -6,7 +6,6 @@ class Truck extends React.Component {
     return <h2>Hi, I am a Truck!</h2>;
   }
 }
-
 class Motorcycle extends React.Component {
   constructor(props) {
     super(props);
@@ -23,7 +22,6 @@ class Motorcycle extends React.Component {
     </div>;
   }
 }
-
 function Car(props) {
   return <h2>I am a {props.color} Car!</h2>;
 
@@ -44,7 +42,6 @@ function Garage() {
     </>
   );
 }
-
 function App() {
   return (
     <div className="App">
